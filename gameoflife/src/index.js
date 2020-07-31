@@ -79,9 +79,7 @@ class Buttons extends React.Component {
 					<button className="btn btn-default" onClick={this.props.seed}>
 					  Seed
 					</button>
-          <button eventKey="1" className="btn btn-default" onClick={this.handleSelect}>
-            20x10
-          </button>
+          
           <Dropdown className="btn btn-default">
             <Dropdown.Toggle
 						// variant="success"
